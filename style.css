@@ -1,0 +1,24 @@
+figure{
+    float: left;
+    width: 40%;
+}
+figure img{
+    width: 520px;
+    height: auto;
+}
+caption{
+    float: right;
+}
+@media screen and (max-width: 600px){
+    p{
+        color: aqua;
+    }
+    figure{
+        float: none;
+        width: 100%;
+    }
+    figure img{
+        width: 100%;
+    }    
+    
+}
